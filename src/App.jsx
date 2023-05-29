@@ -9,16 +9,17 @@ function App() {
   const [email, setEmail] = useState('')
   const [isSuccess, setIsSuccess] = useState(true)
   const [isValid, setIsValid] = useState(false)
-  
-  const handleChange=(e)=>{
+
+  const handleChange = (e) => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
     if (emailRegex.test(e.target.value)) {
-      setIsValid(true)}
+      setIsValid(true)
+    }
   }
 
   const handleSubmit = (e) => {
     e.preventDefault()
-     if(isValid){
+    if (isValid) {
       setEmail(e.target[0].value)
       e.target[0].value = ''
       setIsSuccess(false)
@@ -28,7 +29,7 @@ function App() {
     setIsSuccess(true)
     setIsValid(false)
   }
-  
+
   return (
     <>
       {isSuccess ? (

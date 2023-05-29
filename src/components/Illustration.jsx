@@ -3,10 +3,9 @@ import React from 'react'
 const Illustration = () => {
   return (
     <img
-          src='images/illustration-sign-up-desktop.svg'
-          alt='illustration-sign-up'
-          
-        />
+      src='images/illustration-sign-up-desktop.svg'
+      alt='illustration-sign-up'
+    />
   )
 }
 

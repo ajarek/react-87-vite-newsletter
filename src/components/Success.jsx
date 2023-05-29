@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Success = ({onClick,email}) => {
+const Success = ({ onClick, email }) => {
   return (
     <div className='success'>
       <img
@@ -10,8 +10,8 @@ const Success = ({onClick,email}) => {
 
       <h2> Thanks for subscribing! </h2>
       <p>
-        A confirmation email has been sent to {email}. Please open
-        it and click the button inside to confirm your subscription.{' '}
+        A confirmation email has been sent to {email}. Please open it and click
+        the button inside to confirm your subscription.{' '}
       </p>
       <button onClick={onClick}>Dismiss message</button>
     </div>

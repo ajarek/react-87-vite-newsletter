@@ -3,7 +3,7 @@ import React from 'react'
 const List = () => {
   return (
     <ul>
-    <p>Join 60,000+ product managers receiving monthly updates on:</p>
+      <p>Join 60,000+ product managers receiving monthly updates on:</p>
       <li>
         <img
           src='images/icon-list.svg'
